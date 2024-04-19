@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 imbalanced-learn==0.8.0
-=======
-imbalanced-learn==0.8.0
->>>>>>> d294b3cadf5e814c73c1ea0260e447fb6bcfe34b
