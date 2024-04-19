@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
+import xgboost as xgb
+import imblearn
 from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
@@ -118,7 +120,7 @@ def show_predict_page():
 
         print("Scaled input array:", x_scaled)  # Debug print
 
-        
+
 
         def convert_prediction(attrition):
             return "Yes" if attrition == 1 else "No"
